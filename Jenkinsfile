@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/patanfouziya/spring-petclinic.git'
+                git branch: 'master', url: 'https://github.com/NubeEra-Labs/spring-petclinic-codebuild.git'
             }
         }
 
